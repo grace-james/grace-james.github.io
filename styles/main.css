@@ -1,21 +1,17 @@
 body {
-    /* background-image: url("../photo/IMG_2919.jpeg"); */
-    /* background-color: #e7d9b9; */
+    background-color: #e7d9b9;
     text-align: right;
     font-family: 'Andada Pro', serif;
     color: black;
 }
 
 .header {
-    /* position: fixed;
-    top: 0px;
-    left: 0px; */
-    color: rebeccapurple;
-    /* background-color: aliceblue; */
+    font-family: 'Andada Pro', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    color: rgba(58, 58, 158, 0.8);
     padding: 50px;
-    /* background: image("photo/IMG_2919.jpeg"); */
-    text-decoration: underline;
-    
+    /* background-color: antiquewhite; */
 }
 
 h1 {
@@ -23,34 +19,39 @@ h1 {
 }
 
 img {
+    display: none;
     max-width: 50%;
-    display: block;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 50%;
-    padding: 10px;
-    /* opacity: ; */
+    /* padding: 20px; */
     position: relative;
 }
+
+@media only screen and (min-width: 600px) {
+    img {
+        display: block;
+    }
+}
+
 footer {
     background-color: antiquewhite;
 }
 
 p {
-    font-size: 30px;
+    font-size: 15px;
     position: relative;
+    margin: 10px;
+    padding: 30px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    word-spacing: 6;
 }
 
 #link-list {
     margin: 30px auto;
     font-size: 30px;
 }
-
-.border {
-    border-color: rgb(14, 12, 12);
-    border-width: 10px;
-    border-style: double;
-  }
 
 .pad {
     padding: 20px;
@@ -65,7 +66,6 @@ a:hover {
 }
 
 #photo-div {
-    /* position: absolute; */
     background-image: linear-gradient( 
             115deg, 
             rgba(58, 58, 158, 0.8), 
@@ -74,4 +74,6 @@ a:hover {
         url(../photo/IMG_2919.jpeg);
         background-size: cover;
         background-position: center;
+        max-width: 100%;
+        height: auto;
 }

@@ -5,13 +5,36 @@ body {
     color: black;
 }
 
+header {
+    padding-top: 50;
+    padding-bottom: 50;
+}
+
+
+
+
 .header {
+  
     font-family: 'Andada Pro', serif;
     font-family: 'Press Start 2P', cursive;
     font-size: 60px;
     color: rgba(58, 58, 158, 0.8);
-    padding: 50px;
+    padding: 192px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    animation: rightThenLeft 4s infinite;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+/* @keyframes rightThenLeft {
+    100%   {margin-right:0%;}
+    50%  {margin-right:50%;}
+    100% {margin-right:0%;}
+} */
+
+
+
 
 @media (max-width: 600px) {
     .header {

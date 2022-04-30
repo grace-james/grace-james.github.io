@@ -115,3 +115,10 @@ a:hover {
     max-width: 900px;
     margin: 0 auto;
 }
+
+@media (min-width: 400px) {
+
+}
+@media (width: 550px) {}
+
+@media (width: 768px) {}

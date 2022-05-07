@@ -116,6 +116,22 @@ a:hover {
     margin: 0 auto;
 }
 
+@media (min-width: 320px) {
+  img {
+    display: block;
+    max-width: 100%;
+}
+}
+
+@media (min-width: 1200px) {
+  img {
+    display: block;
+    max-width: 55%;
+}
+}
+
+
+
 @media (min-width: 400px) {
 
 }
